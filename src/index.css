@@ -5,9 +5,9 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #a2a3bb;
-  --secondary: #9395d3;
-  --tertiary: #b3b7ee;
+  --primary: #7dde92;
+  --secondary: #2ebfa5;
+  --tertiary: #2ebfa5;
   --light: #fbf9ff;
   --dark: #000807;
   --darker: #111111;
@@ -294,6 +294,8 @@ a {
   color: var(--secondary);
 }
 
+/* style modifications start here */
+
 footer {
   background-color: var(--dark);
   display: flex;
@@ -304,4 +306,142 @@ footer {
   bottom: 0;
   height: 60px;
   width: 100%;
+}
+
+/* PORTFOLIO styles start */
+.wrapper {
+  display: grid;
+  grid-template-columns: 2fr 5fr 5fr;
+  grid-auto-rows: minmax(100px, auto);
+  column-gap: 5px;
+  row-gap: 5px;
+  margin-right: 5px;
+}
+
+.wrapper h2 {
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end: 4;
+}
+
+/* HOMEBASE */
+#main-work {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  position: relative;
+  text-align: center;
+}
+
+#main-work img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 500px;
+  border: 3px solid var(--secondary);
+}
+
+#one-text {
+  color: var(--light);
+}
+
+/* RAPID TRANSLATION */
+#second-work {
+  position: relative;
+  text-align: center;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row: 1 / 2;
+}
+
+#second-work img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 300px;
+  border: 3px dotted var(--secondary);
+}
+
+#two-text {
+  color: var(--light);
+} 
+
+/* WORK DAY SCHEDULER */
+#third-work {
+  position: relative;
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+}
+
+#third-work img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 300px;
+  border: 3px dotted var(--secondary);
+}
+
+#third-text {
+  color: var(--light);
+}
+
+/* PASSWORD GENERATOR */
+#fourth-work {
+  position: relative;
+  text-align: center;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+}
+
+#fourth-work img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 300px;
+  border: 3px solid var(--secondary);
+}
+
+#fourth-text {
+  color: var(--light);
+}
+
+/* WEATHER DASHBOARD */
+#fifth-work {
+  position: relative;
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+}
+
+#fifth-work img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 300px;
+  border: 3px solid var(--secondary);
+}
+
+#fifth-text {
+  color: var(--light); 
+}
+
+/*CODING QUIZ */
+#sixth-work {
+  position: relative;
+  text-align: center;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+}
+
+#sixth-work img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 300px;
+  border: 3px dotted var(--secondary);
+}
+
+#sixth-text {
+  color: var(--light); 
 }

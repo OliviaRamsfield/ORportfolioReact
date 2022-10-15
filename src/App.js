@@ -10,6 +10,7 @@ function App() {
     <div>
       <Header></Header>
       <main>
+        <Project />
       </main>
       <Footer></Footer>
     </div>
