@@ -293,3 +293,15 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+footer {
+  background-color: var(--dark);
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+}
