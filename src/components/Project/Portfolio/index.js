@@ -5,7 +5,7 @@ import rapid from '../../../assets/photos/rapid.png';
 import workday from '../../../assets/photos/workday.png';
 import pg from '../../../assets/photos/PG.png';
 import weather from '../../../assets/photos/weather.png';
-import quiz from '../../../assets/photos/game.png';
+import styleBuddy from '../../../assets/photos/styleBuddy';
 
 function Portfolio () {
 
@@ -58,12 +58,12 @@ function Portfolio () {
                 </div>
             </div>
             <div id="sixth-work">
-                <a href="https://oliviaramsfield.github.io/timed-quiz-javascript/">
-                    <img src={quiz} alt="An application to test user knowledge about coding in a game format."></img>
+                <a href="https://github.com/samvrny/style-buddy">
+                    <img src={styleBuddy} alt="An application to help coders design websites quickly with color palettes, fonts and images."></img>
                 </a>
                 <div id="fifth-text">
-                    <p>Coding Quiz</p>
-                    <a href="https://github.com/OliviaRamsfield/timed-quiz-javascript"><FaGithubSquare /></a>
+                    <p>Style Buddy</p>
+                    <a href="https://style-buddy22.herokuapp.com"><FaGithubSquare /></a>
                 </div>
             </div>
         </section>
